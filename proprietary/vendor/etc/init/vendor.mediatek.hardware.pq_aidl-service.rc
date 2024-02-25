@@ -1,0 +1,6 @@
+service vender.mediatek.hardware.pq_aidl-default /vendor/bin/hw/vendor.mediatek.hardware.pq_aidl-service
+    interface aidl vendor.mediatek.hardware.pq_aidl-service
+    class main
+    user system
+    group system graphics
+    capabilities SYS_NICE
