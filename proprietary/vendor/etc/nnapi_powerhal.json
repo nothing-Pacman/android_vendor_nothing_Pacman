@@ -1,0 +1,431 @@
+{
+    "fast_single_answer": [
+        {
+            "name": "PERF_RES_CPUFREQ_CCI_FREQ",
+            "id": "0x00410000",
+            "value": 1
+        },
+        {
+            "name": "PERF_RES_CPUFREQ_PERF_MODE",
+            "id": "0x00414000",
+            "value": 1
+        },
+        {
+            "name": "PERF_RES_SCHED_ISOLATION_CPU",
+            "id": "0x0143c000",
+            "value": 128
+        },
+        {
+            "name": "PERF_RES_DRAM_OPP_MIN",
+            "id": "0x01000000",
+            "value": 0
+        },
+        {
+            "name": "PERF_RES_SCHED_UCLAMP_MIN_TA",
+            "id": "0x01408300",
+            "value": 100
+        },
+        {
+            "name": "PERF_RES_FPS_FSTB_SOFT_FPS_LOWER",
+            "id": "0x0201c000",
+            "value": 60
+        },
+        {
+            "name": "PERF_RES_FPS_FSTB_SOFT_FPS_UPPER",
+            "id": "0x0201c100",
+            "value": 60
+        },
+        {
+            "name": "PERF_RES_FPS_FBT_BHR_OPP",
+            "id": "0x02020000",
+            "value": 31
+        },
+        {
+            "name": "PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1",
+            "id": "0x01438400",
+            "value": 0
+        },
+        {
+            "name": "PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_1",
+            "id": "0x01438700",
+            "value": 40000
+        },
+        {
+            "name": "PERF_RES_PM_QOS_CPUIDLE_MCDI_ENABLE",
+            "id": "0x01c3c100",
+            "value": 0
+        }
+    ],
+    "sustained_speed": [
+        {
+            "name": "PERF_RES_DRAM_OPP_MIN",
+            "id": "0x01000000",
+            "value": 0
+        },
+        {
+            "name": "PERF_RES_SCHED_UCLAMP_MIN_TA",
+            "id": "0x01408300",
+            "value": 100
+        },
+        {
+            "name": "PERF_RES_FPS_FSTB_SOFT_FPS_LOWER",
+            "id": "0x0201c000",
+            "value": 60
+        },
+        {
+            "name": "PERF_RES_FPS_FSTB_SOFT_FPS_UPPER",
+            "id": "0x0201c100",
+            "value": 60
+        },
+        {
+            "name": "PERF_RES_FPS_FBT_BHR_OPP",
+            "id": "0x02020000",
+            "value": 31
+        },
+        {
+            "name": "PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1",
+            "id": "0x01438400",
+            "value": 0
+        },
+        {
+            "name": "PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_1",
+            "id": "0x01438700",
+            "value": 40000
+        },
+        {
+            "name": "PERF_RES_PM_QOS_CPUIDLE_MCDI_ENABLE",
+            "id": "0x01c3c100",
+            "value": 0
+        }
+    ],
+    "compilation": [
+        {
+            "name": "PERF_RES_CPUFREQ_PERF_MODE",
+            "id": "0x00414000",
+            "value": 1
+        },
+        {
+            "name": "PERF_RES_DRAM_OPP_MIN",
+            "id": "0x01000000",
+            "value": 0
+        },
+        {
+            "name": "PERF_RES_SCHED_UCLAMP_MIN_TA",
+            "id": "0x01408300",
+            "value": 100
+        },
+        {
+            "name": "PERF_RES_FPS_FBT_BHR_OPP",
+            "id": "0x02020000",
+            "value": 31
+        },
+        {
+            "name": "PERF_RES_SCHED_UTIL_UP_RATE_LIMIT_US_CLUSTER_1",
+            "id": "0x01438400",
+            "value": 0
+        },
+        {
+            "name": "PERF_RES_SCHED_UTIL_DOWN_RATE_LIMIT_US_CLUSTER_1",
+            "id": "0x01438700",
+            "value": 40000
+        }
+    ],
+    "baseline": [
+        {
+            "name": "PERF_RES_AI_APUSYS_BOOST_IPU_IF",
+            "id": "0X01810000",
+            "value": 0
+        }
+    ],
+    "preference_options": [
+        {
+            "name": "low_power",
+            "id": 0,
+            "options": "--opt-bw"
+        },
+        {
+            "name": "fast_single_answer",
+            "id": 1,
+            "options": "--opt 3 --intval-coloring-coverage=0.01"
+        },
+        {
+            "name": "sustained_speed",
+            "id": 2,
+            "options": "--opt-bw"
+        }
+    ],
+    "smp_signature": [
+        {
+            "hash": "c06f338120420b3f478a661ec1ac573f2d2030f5562c6dc14ea4e06596b3759f",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "3423c99d1f77462218376194c9a01252340c03e565994f6c8ff464434d91e65f",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "cef21a3bb59fbe6ade355c813f17ec6b95d463cf1113be7f8a2c892990bb6cd1",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "9849225ba4592fc48174fc4996f2033f27334121e61da013c63d257d291b1f70",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "b851a1d696862404efd556cc3b69973341b88e75a02cdde2eadd3603f1717c2f",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "e5fe0c8f22b4ba828c26ee8f33ae01df073133d87cfcad7452da9aefaf9ec0c1",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "b2601ea2e81454896d90985a3f8c3b48ae9865ae6a773b2f4d47035096e34268",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "431d8864910d0555a5cb17b7d99a08419b1afa7b3dd9ba6852736b2ed7ed6727",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "b59a4ff6817d936ec4e5b36bd24bf285690d35578bb54eab5880d4bd27df9161",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "e27aa0682c820f95497b83fb0846a92551825ed4e423adc709eb6d8862e1c7d4",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "fde7a79de00cea53748523a3f8b81eac0d3b54926d0bd6cd665c47695cc63a90",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "93c9bf50f8a2fccb601ff91c0204a9d933c9660cb7b483a03875a6babc9292ef",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "168ce2ee135c09c9c599aff2911761cd32ab2d0feab1a1a114e0480888e529bd",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "0d77efd6075e49e38d8dca1cf07a97e4c7594a6b44d85ff115f67592701ae09c",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "fe971d3a6b4c414e3aa19d3840bbac85bce987238fa50a9b0b1a9c6d4822197a",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "2f31050e1e580c1b2e046fa9c5d9770da790913d7941da981c4dbd1d10ef9af2",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "0a2fd42db14e0930f012122820cf4a395c200a8cdf07cac8b66674f7224c583a",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "cef21a3bb59fbe6ade355c813f17ec6b95d463cf1113be7f8a2c892990bb6cd1",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "36eea386ba0a47e7637ea05906edea917f7b3413cd0bd0393eb7addef3913d09",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "cc7d6e91b3c66db8ca7f9a7a1d36279e627fe2bfd39cc43e24dee823786e4fa3",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "8721367698693dfd5ebc49f1807513bff8ca1c929a32c8dcb6b683204e80642f",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "05a8a4420f4026002e75b432c310a47776b0d668f1602ea5ad64f0944b455722",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "c779ae4cefcb9c08e6100c1b5d6e5cd3d9b1a1233818f6bb0ebd4c43a0ef9512",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "a6ca2fa7b5f10309913adc265156b43e158c6e727fcf989f61b3af267efff584",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "5809fb67e67764e1d6c2f41c820d6be188e99152aeddaeafb9f476532f5a60e3",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "988d83ff576e0a07f123d48422d34e14d847b5247f51231cff5283784fa1f61a",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "ed534521b8fcba69bbdbac2837169884075eeb1e8c48c666bb2bd2e849852480",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "576befcc5fb83029cb3ce1e6182acad496a62e0092174359cba4ecba0615092d",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "828b88eaec5de189cf0f878481339b899987024097dff3505b6b7329df1544be",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "a1c996899479f753221fbcf8830acdfb009473931b88b29a1c61621adec82470",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "168ce2ee135c09c9c599aff2911761cd32ab2d0feab1a1a114e0480888e529bd",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "ffc9214f8d521d8e231283f083f90a989e7abf30027052bdc4b4978c50375276",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "cc29f19bf258799efd178829ca74a645c0cd3ef0c005bf8ed38d2947592adfe4",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "361fffe51544efcb28ce488ee7a553e268737a088beddac1250aca862efaf3eb",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "4c852d3c80939e019e226b53e2c51b6708516706c71fbd6a890534f1ab4bfe39",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "762993bf488b7cc7978d5b1e07365dd1abd72dada8706c465fe1109be3711594",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "0222747eaca1c7c4e053674f294593898df0447a3a18f3593e4b6a60acba9f60",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "da72b40d2f074204004ab0a6eb731e78727392804ea291bc0eaccf74cb12e978",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "ec6b361b216d6c688953248ecc067de5483f078825b168f763c429d8bafde898",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "76faf0d540eb146050c87f59a73edfecf6992238817073957531f9762dc3193d",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "ec16f8fb1d562ff7d878409d6f192a38c91a806a25fd0455bcd1ae5f453f6840",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "ce792eb352242a1933fd8d4741f41fc78d96a2c042d97ea3d43bd205057fda69",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "6de68ad9278ebe49336ab3c0426f1685287c0e74af29d8613c4179a10763803b",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "36df167beab166e0d3bd32530abc41728d5f52cda9f359ac4809faace6a5140c",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "f5f2fb56309045846c3cd7f1b828c1e57132bbbf465e234fa526b9ec284902c5",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "06fbe862eb5fe25ff66dffd3183d8ca7de1a1862cb3e158f2b77e9dfc9473d22",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "54df7fc28183085e0dc1af6405f142ab0699accd1848a54266c6eaedc375269e",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "7aabe51938ee5ef26a7384f43336582f2c17c3fc8e9cc4329e62ee650698cac9",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "b7d2c5907b57e8a6048c33e89cb6a2941a1c2e9adfcb82aaaa8073258510ac13",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "533877430a553a834d08d835b4694c500b605687ab0a4ea3b15690db619008ba",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "39848205ec0e57350fab3a52ed5257bd000c397d12fb6dd1b5b6910f15ec2365",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "f45749814a254bf2697de42c4bbfcd05c61acaea887021ca238c9c2e8b33e519",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "c3d8b69c657e3e4064d66abfbfaafa67b720a6023964b6141ede375e3e88efa7",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "9c980cdf7862db2d9d1c148ce6c0e9035275f680f5a07f987cf435f74a816533",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "340e340370ebbc542d2402127990faf8f9f76441e6bc6b1d35a572a5b8b3fc41",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "9040867c57b3a4411a81f36d0b6d28ac4a63e3483c87cfde3c7f3ef81e3f1507",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "34b5a88e95de0534c9647bd09f90464141f4a07d08967776d37403edb6b16406",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "3a5b4a41d6a8b897d52c6b10bdd197e77934e2bf2f2b47d27d0eb8da3e427b86",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "335afab6b22b728fb84e5ecafcd5e6e5ef4126a22f777fa483a61fa16c4b5d21",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "bbaabbbbb86f4f538e852be35903988cb2ff1deb9e3de64ff94f007c10ae8de6",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "5c9b24eae474997cc56969161ad52376dcc74d85e4ac78d98d93c6043769e868",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "15011512a9eed340844be7f7ead3c21f4710fab2efa45bf9eee3714c8cb54488",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "f6c822d6226562cf524ab7765ba8e61c3fe64d2c97a7d2dd1711c4d3a18ab0a7",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "ad8ff557fd86f7f228b307d406ae215acfee2f2170eeed1985d8fc9b48871c58",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "6510d6186dcd1805dc6c6d8d95b48ac9ffe4f471c4829c48c3d330b44facb1b1",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "742d5bbb7036d7003f88d84ed6e86a756e684eb0bd14a190b5bc28f999d50c4d",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "30118adabaa1f80cda0efe358fdf99b7545a7c390d1ca2294336671ee4bdcfdf",
+            "options": "-O3 --opt-accuracy"
+        },
+        {
+            "hash": "fe971d3a6b4c414e3aa19d3840bbac85bce987238fa50a9b0b1a9c6d4822197a",
+            "options": "-O3 --opt-accuracy"
+        }
+    ]
+}
